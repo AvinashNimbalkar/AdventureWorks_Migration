@@ -1,0 +1,15 @@
+{
+	"name": "avnisadf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5c1612cc-6881-4a59-9921-378343f7e9c2",
+		"tenantId": "a4b813b2-1828-41e8-a8d5-837f2b1bcdd7"
+	}
+}

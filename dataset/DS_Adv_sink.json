@@ -1,0 +1,39 @@
+{
+	"name": "DS_Adv_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_sink",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_sink_folder": {
+				"type": "string"
+			},
+			"p_sink_filename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().p_sink_filename",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@dataset().p_sink_folder",
+					"type": "Expression"
+				},
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
