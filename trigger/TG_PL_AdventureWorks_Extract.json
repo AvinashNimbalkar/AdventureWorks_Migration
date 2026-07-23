@@ -14,8 +14,8 @@
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
-				"frequency": "Minute",
-				"interval": 1,
+				"frequency": "Hour",
+				"interval": 2,
 				"startTime": "2026-07-23T22:08:00",
 				"endTime": "2026-07-24T16:30:00",
 				"timeZone": "India Standard Time"
