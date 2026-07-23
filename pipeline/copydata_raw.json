@@ -36,22 +36,8 @@
 							"fileExtension": ".txt"
 						}
 					},
-					"enableStaging": false,
-					"translator": {
-						"type": "TabularTranslator",
-						"typeConversion": true,
-						"typeConversionSettings": {
-							"allowDataTruncation": true,
-							"treatBooleanAsNumber": false
-						}
-					}
+					"enableStaging": false
 				},
-				"inputs": [
-					{
-						"referenceName": "ds_http",
-						"type": "DatasetReference"
-					}
-				],
 				"outputs": [
 					{
 						"referenceName": "ds_adls",

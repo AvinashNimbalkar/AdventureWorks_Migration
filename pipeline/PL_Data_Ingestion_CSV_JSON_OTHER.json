@@ -173,12 +173,6 @@
 													},
 													"enableStaging": false
 												},
-												"inputs": [
-													{
-														"referenceName": "ds_json_cp_input",
-														"type": "DatasetReference"
-													}
-												],
 												"outputs": [
 													{
 														"referenceName": "ds_cp_json_output",
@@ -230,12 +224,6 @@
 											},
 											"enableStaging": false
 										},
-										"inputs": [
-											{
-												"referenceName": "ds_json_cp_input",
-												"type": "DatasetReference"
-											}
-										],
 										"outputs": [
 											{
 												"referenceName": "ds_cp_json_output",
